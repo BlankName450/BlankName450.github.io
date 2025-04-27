@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import 'flowbite';
+
+#Title {
+  font-family: "Edu QLD Beginner", cursive;
+}
+
+#home .content {
+  position: absolute;
+  top: 30%;
+}
+
+/* Remove absolute positioning on small screens for responsiveness */
+@media (max-width: 767px) {
+  #home .content {
+    position: static;
+    top: auto;
+    padding: 1rem; /* Add some padding for spacing */
+  }
+}
+
+#home .content .frontend-text::after {
+  content: "|";
+  height: 50px;
+  width: 2px;
+  animation: Typing 8s infinite;
+}
+
+@keyframes Typing {
+  0% { content: 'F|'; }
+  2% { content: 'Fr|'; }
+  4% { content: 'Fro|'; }
+  6% { content: 'Fron|'; }
+  8% { content: 'Front|'; }
+  10% { content: 'Front |'; }
+  12% { content: 'Front E|'; }
+  14% { content: 'Front En|'; }
+  16% { content: 'Front End|'; }
+  18% { content: 'Front End D|'; }
+  20% { content: 'Front End De|'; }
+  22% { content: 'Front End Dev|'; }
+  24% { content: 'Front End Deve|'; }
+  26% { content: 'Front End Devel|'; }
+  28% { content: 'Front End Develop|'; }
+  30% { content: 'Front End Develope|'; }
+  32% { content: 'Front End Developer|'; }
+  34% { content: 'Front End Develope|'; }
+  36% { content: 'Front End Develop|'; }
+  38% { content: 'Front End Devel|'; }
+  40% { content: 'Front End Deve|'; }
+  42% { content: 'Front End Dev|'; }
+  44% { content: 'Front End D|'; }
+  46% { content: 'Front End|'; }
+  48% { content: 'Front E|'; }
+  50% { content: 'Front|'; }
+  52% { content: 'Fron|'; }
+  54% { content: 'Fro|'; }
+  56% { content: 'Fr|'; }
+  58% { content: 'F|'; }
+}
