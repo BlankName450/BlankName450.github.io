@@ -8,7 +8,18 @@
   <link rel="stylesheet" href="../node_modules/flowbite/dist/flowbite.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new Typed("#typing", {
+        strings: ["Front-End Developer","WordPress Developer"],
+        typeSpeed: 60,
+        backSpeed: 40,
+        loop: true,
+      });
+    });
+  </script>
   </head>
   <body class="bg-gray-100 p-0">
   
@@ -47,7 +58,7 @@
   <div class="w-full md:w-1/2">
   <div class="content">
   <h4 class="mt-4 uppercase font-medium text-xl">Hello everyone I'm Mahmoud</h4>
-  <h1 class="frontend-text font-medium text-3xl"></h1>
+  <h1 class="frontend-text font-medium text-3xl"><span id="typing"></span></h1>
   <p class="text-lg font-light leading-relaxed pt-3 max-w-xl pb-10">
     A Front-End React Developer with a strong foundation in building dynamic and responsive web applications. Proficient in HTML, CSS, and JavaScript, I specialize in using React to create seamless user experiences.
   </p>
