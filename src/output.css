@@ -402,9 +402,6 @@
   .my-10 {
     margin-block: calc(var(--spacing) * 10);
   }
-  .my-15 {
-    margin-block: calc(var(--spacing) * 15);
-  }
   .my-20 {
     margin-block: calc(var(--spacing) * 20);
   }
@@ -416,6 +413,9 @@
   }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
+  }
+  .mt-15 {
+    margin-top: calc(var(--spacing) * 15);
   }
   .mr-1 {
     margin-right: calc(var(--spacing) * 1);
